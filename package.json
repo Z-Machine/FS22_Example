@@ -1,0 +1,30 @@
+{
+  "name": "fs22_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.ts",
+  "scripts": {
+    "bundle": "ts-node ./scripts/bundle.ts",
+    "build": "npm run validate:xml && npm run bundle",
+    "build:test": "npm run build && npm run game",
+    "game": "ts-node ./scripts/runGame.ts",
+    "validate:xml": "ts-node ./scripts/validate.ts"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@types/adm-zip": "^0.4.34",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^16.11.10",
+    "adm-zip": "^0.5.9",
+    "fast-xml-parser": "^4.0.0-beta.2",
+    "fs-extra": "^10.0.0",
+    "lua-types": "^2.10.1",
+    "luamin": "^1.0.4",
+    "ts-node": "^10.4.0",
+    "typescript-to-lua": "^1.2.0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
+}

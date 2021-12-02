@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>loki_79 and Zed</author>
+    <version>1.0.0.0</version>
+    <title>
+		<en>FreeLabour</en>
+    </title>
+    <description>
+        <en>FreeLabour written in TypeScript</en>
+    </description>
+    <multiplayer supported="true"/>
+    <iconFilename>modIcon.dds</iconFilename>
+    <extraSourceFiles>
+        <sourceFile filename="main.lua" />
+    </extraSourceFiles>
+    <dependencies>
+        <dependency>a050_FS22_TSTL_Library</dependency>
+    </dependencies>
+</modDesc>

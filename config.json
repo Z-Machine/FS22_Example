@@ -1,0 +1,18 @@
+{
+  "$schema": ".\\scripts\\configSchema.json",
+  "buildArchive": true,
+  "minifyScripts": false,
+
+  "fsUserDir": "C:\\Users\\Z-Machine\\Documents\\My Games\\FarmingSimulator2022",
+  "log": "log.txt",
+
+  "fsModDir": "C:\\Users\\Z-Machine\\Documents\\My Games\\FarmingSimulator2022\\mods",
+  "modName": "FS22_FreeLabour",
+
+  "fsGameDir": "Z:\\!games\\Farming Simulator 22",
+  "fsGameBin": "x64\\FarmingSimulator2022Game.exe",
+  "launchOptions": [
+    "-autoStartSavegameId 3",
+    "-mpDebuggable"
+  ]
+}

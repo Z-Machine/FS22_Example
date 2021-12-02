@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$title": "Project Config",
+  "type": "object",
+  "description": "the project's configuration file",
+  "properties": {
+    "buildArchive": {
+      "type": "boolean",
+      "description": "Should the mod be bundled into an archive?",
+      "default": false
+    },
+    "minifyScripts": {
+      "type": "boolean",
+      "description": "Should the mod's scripts be minified during bundling?",
+      "default": false
+    },
+    "fsUserDir": {
+      "type": "string"
+    },
+    "log": {
+      "type": "string",
+      "description": "filename of the log file"
+    },
+    "fsModDir": {
+      "type": "string"
+    },
+    "modName": {
+      "type": "string",
+      "description": "The name of the mod used when bundling"
+    },
+    "fsGameDir": {
+      "type": "string"
+    },
+    "fsGameBin": {
+      "type": "string"
+    }
+  }
+}
